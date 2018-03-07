@@ -1,0 +1,31 @@
+{
+  "name": "Timestamp microservice",
+  "version": "0.0.1",
+  "description": "Time validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js && node sever.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.21.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
